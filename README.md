@@ -60,3 +60,7 @@ cause an error.  No worries, just run it again.
 The documentation for writing JavaScript scripts on macOS is not very complete,
 and so this code is a result of experimentation not solid design.  So if
 something seems quirky or odd in it, it probably  is not intentional.
+
+If you run the program multiple times in quick succession, it seems to
+find and re-delete previously deleted messages, so the count does not go down.
+Quit and restart Mail to solve this.
